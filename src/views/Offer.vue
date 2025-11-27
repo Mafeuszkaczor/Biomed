@@ -1,5 +1,5 @@
 <template>
-    <div class="py-20">
+    <div class="py-10 lg:py-20">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <div class="inline-flex items-center gap-2 bg-[var(--light-background-color)] px-4 py-2 rounded-full mb-6">
                 <i class="fas fa-spa text-[var(--primary-color)]" aria-hidden="true"></i>
