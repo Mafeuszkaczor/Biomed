@@ -25,7 +25,7 @@
                     <div class="mb-4">
                         <h3 class="text-2xl font-[var(--font-family-heading)] font-semibold text-[var(--dark-text-color)] mb-1">Telefon</h3>
                         <p class="text-[var(--gray-text-color)] text-xl font-[var(--font-family-body)] leading-relaxed">
-                            +48 123 456 789
+                            +48 667 785 735
                         </p>
                     </div>
                     <div class="mb-4">

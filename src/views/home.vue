@@ -50,14 +50,14 @@
                        </ul>
                        <!-- CTA Buttons -->
                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-                          <a href="https://app.landingsite.ai/kontakt" class="group bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 inline-flex items-center justify-center gap-2">
+                          <router-link to="/kontakt" class="group bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 inline-flex items-center justify-center gap-2">
                           <span>Umów bezpłatną konsultację</span>
                           <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform" aria-hidden="true"></i>
-                          </a>
-                          <a href="https://app.landingsite.ai/oferta" class="bg-white text-[var(--primary-color)] px-8 py-4 rounded-lg hover:bg-[var(--light-background-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold text-lg shadow-md hover:shadow-lg border-2 border-[var(--primary-color)] inline-flex items-center justify-center gap-2">
+                          </router-link>
+                          <router-link to="/oferta" class="bg-white text-[var(--primary-color)] px-8 py-4 rounded-lg hover:bg-[var(--light-background-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold text-lg shadow-md hover:shadow-lg border-2 border-[var(--primary-color)] inline-flex items-center justify-center gap-2">
                           <span>Zobacz ofertę</span>
                           <i class="fas fa-spa" aria-hidden="true"></i>
-                          </a>
+                          </router-link>
                        </div>
                        <!-- Trust signal -->
                        <p class="text-sm text-[var(--gray-text-color)] font-[var(--font-family-body)] italic">
@@ -217,10 +217,10 @@
                  </div>
                  <!-- CTA -->
                  <div class="text-center mt-12">
-                    <a href="https://app.landingsite.ai/oferta" class="inline-flex items-center gap-2 text-[var(--primary-color)] font-[var(--font-family-body)] font-semibold hover:gap-3 transition-all duration-300">
+                    <router-link to="/oferta" class="inline-flex items-center gap-2 text-[var(--primary-color)] font-[var(--font-family-body)] font-semibold hover:gap-3 transition-all duration-300">
                     <span>Poznaj szczegóły wszystkich terapii</span>
                     <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                    </a>
+                    </router-link>
                  </div>
               </div>
            </section>
@@ -318,10 +318,10 @@
                        </div>
                        <!-- CTA -->
                        <div class="pt-4">
-                          <a href="https://app.landingsite.ai/o-nas" class="inline-flex items-center gap-2 bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold shadow-lg hover:shadow-xl hover:scale-105">
+                          <router-link to="/" class="inline-flex items-center gap-2 bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold shadow-lg hover:shadow-xl hover:scale-105">
                           <span>Poznaj naszą historię</span>
                           <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                          </a>
+                          </router-link>
                        </div>
                     </div>
                  </div>
@@ -452,10 +452,10 @@
                              Umów bezpłatną konsultację i dowiedz się, które terapie będą
                              najlepsze dla Ciebie.
                           </p>
-                          <a href="https://app.landingsite.ai/kontakt" class="inline-flex items-center gap-2 bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold shadow-lg hover:shadow-xl hover:scale-105">
+                          <router-link to="/kontakt" class="inline-flex items-center gap-2 bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold shadow-lg hover:shadow-xl hover:scale-105">
                           <span>Umów bezpłatną konsultację</span>
                           <i class="fas fa-calendar-check" aria-hidden="true"></i>
-                          </a>
+                          </router-link>
                        </div>
                        <div class="order-1 lg:order-2 h-64 lg:h-full">
                           <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/cbb0542f-37f9-4d8c-2eb6-9561c7f10500/public" alt="Vegan vitamin capsules for immunity support and healthy lifestyle on light beige background. Natural softgels and pills supplements and various green plant leaves, banner." class="w-full h-full object-cover" data-media="{&quot;id&quot;:&quot;2185930707&quot;,&quot;src&quot;:&quot;iStock&quot;,&quot;type&quot;:&quot;image&quot;}">
@@ -604,12 +604,12 @@
                     </div>
                  </div>
                  <!-- CTA -->
-                 <div class="text-center mt-12">
-                    <a href="https://app.landingsite.ai/jak-przebiega-wizyta" class="inline-flex items-center gap-2 text-[var(--primary-color)] font-[var(--font-family-body)] font-semibold hover:gap-3 transition-all duration-300">
+                 <!-- <div class="text-center mt-12">
+                    <router-link to="https://app.landingsite.ai/jak-przebiega-wizyta" class="inline-flex items-center gap-2 text-[var(--primary-color)] font-[var(--font-family-body)] font-semibold hover:gap-3 transition-all duration-300">
                     <span>Dowiedz się więcej o przebiegu wizyty</span>
                     <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                    </a>
-                 </div>
+                    </router-link>
+                 </div> -->
               </div>
            </section>
            <section class="code-section py-20 lg:py-32 bg-gradient-to-br from-[var(--primary-color)] to-[var(--accent2-color)] relative overflow-hidden">
@@ -649,10 +649,10 @@
                  </div>
                  <!-- CTA Buttons -->
                  <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <a href="https://app.landingsite.ai/kontakt" class="group bg-white text-[var(--primary-color)] px-10 py-5 rounded-xl hover:bg-[var(--light-background-color)] transition-all duration-300 font-[var(--font-family-body)] font-bold text-lg shadow-2xl hover:shadow-3xl hover:scale-105 inline-flex items-center gap-3">
+                    <router-link to="/kontakt" class="group bg-white text-[var(--primary-color)] px-10 py-5 rounded-xl hover:bg-[var(--light-background-color)] transition-all duration-300 font-[var(--font-family-body)] font-bold text-lg shadow-2xl hover:shadow-3xl hover:scale-105 inline-flex items-center gap-3">
                     <span>Umów wizytę teraz</span>
                     <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform" aria-hidden="true"></i>
-                    </a>
+                    </router-link>
                     <a href="tel:+48123456789" class="bg-transparent text-white px-10 py-5 rounded-xl hover:bg-white hover:bg-opacity-10 transition-all duration-300 font-[var(--font-family-body)] font-semibold text-lg border-2 border-white inline-flex items-center gap-3">
                     <i class="fas fa-phone" aria-hidden="true"></i>
                     <span>Zadzwoń do nas</span>

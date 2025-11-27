@@ -4,15 +4,15 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                <!-- Column 1 - Logo and description -->
                <div class="sm:col-span-2 lg:col-span-1">
-                  <a href="/" class="inline-block mb-6">
+                  <router-link to="/" class="inline-block mb-6">
                   <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/07799bfb-cfff-460b-c815-b6db62afe100/publicContain" alt="Biomed Logo" class="h-20" data-logo="">
-                  </a>
+                  </router-link>
                   <p class="text-[var(--accent4-color)] font-[var(--font-family-body)] leading-relaxed mb-6">
                      Od 2014 roku wspieramy zdrowie w sposób naturalny i holistyczny
                      poprzez sprawdzone metody terapii naturalnych.
                   </p>
                   <div class="flex gap-4">
-                     <a href="https://www.facebook.com/profile.php?id=61579364820882" class="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors duration-300" aria-label="Facebook">
+                     <a href="https://www.facebook.com/profile.php?id=61579364820882" target="_blank" class="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors duration-300" aria-label="Facebook">
                      <i class="fab fa-facebook-f" aria-hidden="true"></i>
                      </a>
                   </div>
@@ -24,22 +24,22 @@
                   </h3>
                   <ul class="space-y-3">
                      <li>
-                        <a href="/" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
+                        <router-link to="/" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
                         <i class="fas fa-chevron-right text-xs" aria-hidden="true"></i>
                         <span>Strona główna</span>
-                        </a>
+                        </router-link>
                      </li>
                      <!-- <li>
-                        <a href="https://app.landingsite.ai/o-nas" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
+                        <router-link to="" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
                         <i class="fas fa-chevron-right text-xs" aria-hidden="true"></i>
                         <span>O nas</span>
                         </a>
                      </li> -->
                      <li>
-                        <a href="/oferta" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
+                        <router-link to="/oferta" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
                         <i class="fas fa-chevron-right text-xs" aria-hidden="true"></i>
                         <span>Oferta</span>
-                        </a>
+                        </router-link>
                      </li>
                   </ul>
                </div>
