@@ -11,7 +11,7 @@
             </h2>
         </div>
 
-        <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 px-2 lg:px-20">
+        <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 px-4 md:px-8 lg:px-20">
             <div class="group bg-gradient-to-br rounded-2xl p-6 border border-[var(--light-border-color)]">
                 <div class="flex items-center mb-4 gap-5">
                     <div class="h-12 w-12 lg:w-14 lg:h-14 bg-[var(--primary-color)] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
