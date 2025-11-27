@@ -11,7 +11,7 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory('/Biomed/'),
-  routes
+  routes: routes
 })
 
 export default router
