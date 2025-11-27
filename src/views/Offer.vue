@@ -10,7 +10,7 @@
                 <span class="text-[var(--primary-color)]">Twojego zdrowia</span>
             </h2>
         </div>
-        <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 px-20">
+        <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 px-4 md:px-10 lg:px-20">
             <!-- Therapy 1 -->
             <div class="group bg-gradient-to-br from-[var(--light-background-color)] to-white rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border border-[var(--light-border-color)] hover:border-[var(--primary-color)] hover:-translate-y-2">
                 <div class="w-14 h-14 bg-[var(--primary-color)] rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -254,7 +254,7 @@
                 </p>
             </div>
         </div>
-        <div class="text-center max-w-3xl mx-auto my-16">
+        <div class="text-center max-w-3xl mx-auto mt-16">
             <h4 class="text-3xl sm:text-4xl lg:text-5xl font-[var(--font-family-heading)] font-bold text-[var(--dark-text-color)] mx-10">
                 Jeśli masz jakiekolwiek pytania
                 <span class="text-[var(--primary-color)]">odezwij sie do nas</span>

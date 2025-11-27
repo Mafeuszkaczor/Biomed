@@ -317,12 +317,12 @@
                           </div>
                        </div>
                        <!-- CTA -->
-                       <div class="pt-4">
+                       <!-- <div class="pt-4">
                           <router-link to="/" class="inline-flex items-center gap-2 bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 font-[var(--font-family-body)] font-semibold shadow-lg hover:shadow-xl hover:scale-105">
                           <span>Poznaj naszą historię</span>
                           <i class="fas fa-arrow-right" aria-hidden="true"></i>
                           </router-link>
-                       </div>
+                       </div> -->
                     </div>
                  </div>
               </div>
