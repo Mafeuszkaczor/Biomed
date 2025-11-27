@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/home.vue'
 import Offer from '../views/Offer.vue'
 import Contact from '../views/Contact.vue' 
@@ -10,7 +10,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/Biomed/'),
+  history: createWebHashHistory('/Biomed/'),
   routes: routes
 })
 

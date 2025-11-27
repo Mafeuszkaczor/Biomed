@@ -9,10 +9,10 @@
             <!-- Desktop Navigation -->
             <nav class="hidden lg:flex items-center space-x-8">
                <!-- <a href="#o-nas" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-[var(--font-family-body)] transition-colors duration-200">O nas</a> -->
-               <a href="/oferta" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-[var(--font-family-body)] transition-colors duration-200">Oferta</a>
+               <router-link to="/oferta" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-[var(--font-family-body)] transition-colors duration-200">Oferta</router-link>
                <!-- <a href="#jak-przebiega-wizyta" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-[var(--font-family-body)] transition-colors duration-200">Jak przebiega wizyta</a> -->
                <!-- <a href="#opinie" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-[var(--font-family-body)] transition-colors duration-200">Opinie klientów</a> -->
-               <a href="/kontakt" class="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-6 py-3 rounded hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-200 font-[var(--font-family-body)] font-semibold">Umów wizytę</a>
+               <router-link to="/kontakt" class="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-6 py-3 rounded hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-200 font-[var(--font-family-body)] font-semibold">Umów wizytę</router-link>
             </nav>
             <!-- Mobile menu button -->
             <button @click="toggleMobileMenu" class="lg:hidden text-[var(--dark-text-color)] p-2">
