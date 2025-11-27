@@ -4,7 +4,7 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                <!-- Column 1 - Logo and description -->
                <div class="sm:col-span-2 lg:col-span-1">
-                  <a href="https://app.landingsite.ai/" class="inline-block mb-6">
+                  <a href="/" class="inline-block mb-6">
                   <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/07799bfb-cfff-460b-c815-b6db62afe100/publicContain" alt="Biomed Logo" class="h-20" data-logo="">
                   </a>
                   <p class="text-[var(--accent4-color)] font-[var(--font-family-body)] leading-relaxed mb-6">
@@ -24,19 +24,19 @@
                   </h3>
                   <ul class="space-y-3">
                      <li>
-                        <a href="https://app.landingsite.ai/" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
+                        <a href="/" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
                         <i class="fas fa-chevron-right text-xs" aria-hidden="true"></i>
                         <span>Strona główna</span>
                         </a>
                      </li>
-                     <li>
+                     <!-- <li>
                         <a href="https://app.landingsite.ai/o-nas" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
                         <i class="fas fa-chevron-right text-xs" aria-hidden="true"></i>
                         <span>O nas</span>
                         </a>
-                     </li>
+                     </li> -->
                      <li>
-                        <a href="https://app.landingsite.ai/oferta" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
+                        <a href="/oferta" class="text-[var(--accent4-color)] hover:text-white transition-colors duration-200 font-[var(--font-family-body)] flex items-center gap-2">
                         <i class="fas fa-chevron-right text-xs" aria-hidden="true"></i>
                         <span>Oferta</span>
                         </a>
